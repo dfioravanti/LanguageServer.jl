@@ -1,3 +1,8 @@
+"""
+This file contains the Basic types required by the LSP implementation as specified in
+https://microsoft.github.io/language-server-protocol/specifications/specification-3-14/
+"""
+
 const DocumentUri = String
 
 @dict_readable struct Position
